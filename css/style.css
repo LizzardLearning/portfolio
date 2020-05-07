@@ -14,10 +14,16 @@ body{
     text-align: center;
     background-color: #679436;
 }
+
 a{
-    color: #064789;
     text-decoration: none;
+    color: #427AA1;
 }
+
+.nav>a{
+    color: #ebf2fa;
+}
+
 h1, h2 {
     color: #679436;
 }
@@ -41,6 +47,10 @@ em {
     text-align: center;
 }
 
+#skills-content li:nth-child(odd) {
+    list-style-type: square;
+}
+
 #header{
     margin: 20px 0 10px 0;
 }
@@ -51,22 +61,28 @@ em {
     margin: auto;
 }
 
-#header .header-content{
+#header .header-content {
    margin-left: 32px;
    text-align: left;
 }
 
 #profile-picture {
     width: 260px;
+    background-color: #679436;
+    padding: 5px;
     border-radius: 30%;
     margin: 0;
 }
 
-#skill-block-left, #skill-block-right{
+#skill-block-left, #skill-block-right, #links-content{
     display: inline-block;
     text-align: left;
     vertical-align: text-top;
     min-width: 300px;
     margin: auto;
+    margin-top: 32px;
+}
+
+#footer{
     margin-top: 32px;
 }
